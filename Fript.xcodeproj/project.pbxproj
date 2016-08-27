@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E72AE2ED1D722F880029239E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72AE2EC1D722F880029239E /* AppDelegate.swift */; };
+		E72AE2EF1D722F880029239E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72AE2EE1D722F880029239E /* ViewController.swift */; };
+		E72AE2F21D722F880029239E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E72AE2F01D722F880029239E /* Main.storyboard */; };
+		E72AE2F41D722F880029239E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E72AE2F31D722F880029239E /* Assets.xcassets */; };
+		E72AE2F71D722F880029239E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E72AE2F51D722F880029239E /* LaunchScreen.storyboard */; };
+		E72AE3021D722F880029239E /* FriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72AE3011D722F880029239E /* FriptTests.swift */; };
+		E72AE30D1D722F880029239E /* FriptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72AE30C1D722F880029239E /* FriptUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E72AE2FE1D722F880029239E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E72AE2E11D722F880029239E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E72AE2E81D722F880029239E;
+			remoteInfo = Fript;
+		};
+		E72AE3091D722F880029239E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E72AE2E11D722F880029239E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E72AE2E81D722F880029239E;
+			remoteInfo = Fript;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E72AE2E91D722F880029239E /* Fript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fript.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E72AE2EC1D722F880029239E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E72AE2EE1D722F880029239E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E72AE2F11D722F880029239E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E72AE2F31D722F880029239E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E72AE2F61D722F880029239E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E72AE2F81D722F880029239E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E72AE2FD1D722F880029239E /* FriptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E72AE3011D722F880029239E /* FriptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriptTests.swift; sourceTree = "<group>"; };
+		E72AE3031D722F880029239E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E72AE3081D722F880029239E /* FriptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E72AE30C1D722F880029239E /* FriptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriptUITests.swift; sourceTree = "<group>"; };
+		E72AE30E1D722F880029239E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E72AE2E61D722F880029239E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72AE2FA1D722F880029239E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72AE3051D722F880029239E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E72AE2E01D722F880029239E = {
+			isa = PBXGroup;
+			children = (
+				E72AE2EB1D722F880029239E /* Fript */,
+				E72AE3001D722F880029239E /* FriptTests */,
+				E72AE30B1D722F880029239E /* FriptUITests */,
+				E72AE2EA1D722F880029239E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E72AE2EA1D722F880029239E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E72AE2E91D722F880029239E /* Fript.app */,
+				E72AE2FD1D722F880029239E /* FriptTests.xctest */,
+				E72AE3081D722F880029239E /* FriptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E72AE2EB1D722F880029239E /* Fript */ = {
+			isa = PBXGroup;
+			children = (
+				E72AE2EC1D722F880029239E /* AppDelegate.swift */,
+				E72AE2EE1D722F880029239E /* ViewController.swift */,
+				E72AE2F01D722F880029239E /* Main.storyboard */,
+				E72AE2F31D722F880029239E /* Assets.xcassets */,
+				E72AE2F51D722F880029239E /* LaunchScreen.storyboard */,
+				E72AE2F81D722F880029239E /* Info.plist */,
+			);
+			path = Fript;
+			sourceTree = "<group>";
+		};
+		E72AE3001D722F880029239E /* FriptTests */ = {
+			isa = PBXGroup;
+			children = (
+				E72AE3011D722F880029239E /* FriptTests.swift */,
+				E72AE3031D722F880029239E /* Info.plist */,
+			);
+			path = FriptTests;
+			sourceTree = "<group>";
+		};
+		E72AE30B1D722F880029239E /* FriptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E72AE30C1D722F880029239E /* FriptUITests.swift */,
+				E72AE30E1D722F880029239E /* Info.plist */,
+			);
+			path = FriptUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E72AE2E81D722F880029239E /* Fript */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E72AE3111D722F880029239E /* Build configuration list for PBXNativeTarget "Fript" */;
+			buildPhases = (
+				E72AE2E51D722F880029239E /* Sources */,
+				E72AE2E61D722F880029239E /* Frameworks */,
+				E72AE2E71D722F880029239E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fript;
+			productName = Fript;
+			productReference = E72AE2E91D722F880029239E /* Fript.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E72AE2FC1D722F880029239E /* FriptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E72AE3141D722F880029239E /* Build configuration list for PBXNativeTarget "FriptTests" */;
+			buildPhases = (
+				E72AE2F91D722F880029239E /* Sources */,
+				E72AE2FA1D722F880029239E /* Frameworks */,
+				E72AE2FB1D722F880029239E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E72AE2FF1D722F880029239E /* PBXTargetDependency */,
+			);
+			name = FriptTests;
+			productName = FriptTests;
+			productReference = E72AE2FD1D722F880029239E /* FriptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E72AE3071D722F880029239E /* FriptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E72AE3171D722F880029239E /* Build configuration list for PBXNativeTarget "FriptUITests" */;
+			buildPhases = (
+				E72AE3041D722F880029239E /* Sources */,
+				E72AE3051D722F880029239E /* Frameworks */,
+				E72AE3061D722F880029239E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E72AE30A1D722F880029239E /* PBXTargetDependency */,
+			);
+			name = FriptUITests;
+			productName = FriptUITests;
+			productReference = E72AE3081D722F880029239E /* FriptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E72AE2E11D722F880029239E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ødegård, Øyvind";
+				TargetAttributes = {
+					E72AE2E81D722F880029239E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E72AE2FC1D722F880029239E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E72AE2E81D722F880029239E;
+					};
+					E72AE3071D722F880029239E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E72AE2E81D722F880029239E;
+					};
+				};
+			};
+			buildConfigurationList = E72AE2E41D722F880029239E /* Build configuration list for PBXProject "Fript" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E72AE2E01D722F880029239E;
+			productRefGroup = E72AE2EA1D722F880029239E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E72AE2E81D722F880029239E /* Fript */,
+				E72AE2FC1D722F880029239E /* FriptTests */,
+				E72AE3071D722F880029239E /* FriptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E72AE2E71D722F880029239E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72AE2F71D722F880029239E /* LaunchScreen.storyboard in Resources */,
+				E72AE2F41D722F880029239E /* Assets.xcassets in Resources */,
+				E72AE2F21D722F880029239E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72AE2FB1D722F880029239E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72AE3061D722F880029239E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E72AE2E51D722F880029239E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72AE2EF1D722F880029239E /* ViewController.swift in Sources */,
+				E72AE2ED1D722F880029239E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72AE2F91D722F880029239E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72AE3021D722F880029239E /* FriptTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72AE3041D722F880029239E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72AE30D1D722F880029239E /* FriptUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E72AE2FF1D722F880029239E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E72AE2E81D722F880029239E /* Fript */;
+			targetProxy = E72AE2FE1D722F880029239E /* PBXContainerItemProxy */;
+		};
+		E72AE30A1D722F880029239E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E72AE2E81D722F880029239E /* Fript */;
+			targetProxy = E72AE3091D722F880029239E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E72AE2F01D722F880029239E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E72AE2F11D722F880029239E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E72AE2F51D722F880029239E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E72AE2F61D722F880029239E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E72AE30F1D722F880029239E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E72AE3101D722F880029239E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E72AE3121D722F880029239E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fript/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.fript.Fript;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E72AE3131D722F880029239E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fript/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.fript.Fript;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E72AE3151D722F880029239E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FriptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.fript.FriptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fript.app/Fript";
+			};
+			name = Debug;
+		};
+		E72AE3161D722F880029239E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FriptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.fript.FriptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fript.app/Fript";
+			};
+			name = Release;
+		};
+		E72AE3181D722F880029239E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FriptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.fript.FriptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fript;
+			};
+			name = Debug;
+		};
+		E72AE3191D722F880029239E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FriptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.fript.FriptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fript;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E72AE2E41D722F880029239E /* Build configuration list for PBXProject "Fript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72AE30F1D722F880029239E /* Debug */,
+				E72AE3101D722F880029239E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E72AE3111D722F880029239E /* Build configuration list for PBXNativeTarget "Fript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72AE3121D722F880029239E /* Debug */,
+				E72AE3131D722F880029239E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E72AE3141D722F880029239E /* Build configuration list for PBXNativeTarget "FriptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72AE3151D722F880029239E /* Debug */,
+				E72AE3161D722F880029239E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E72AE3171D722F880029239E /* Build configuration list for PBXNativeTarget "FriptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72AE3181D722F880029239E /* Debug */,
+				E72AE3191D722F880029239E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E72AE2E11D722F880029239E /* Project object */;
+}
