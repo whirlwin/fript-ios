@@ -14,6 +14,10 @@
 		E72AE2F71D722F880029239E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E72AE2F51D722F880029239E /* LaunchScreen.storyboard */; };
 		E72AE3021D722F880029239E /* FriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72AE3011D722F880029239E /* FriptTests.swift */; };
 		E72AE30D1D722F880029239E /* FriptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72AE30C1D722F880029239E /* FriptUITests.swift */; };
+		E72AE31D1D7234A50029239E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72AE31A1D7234A50029239E /* FBSDKCoreKit.framework */; };
+		E72AE31E1D7234A50029239E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72AE31B1D7234A50029239E /* FBSDKLoginKit.framework */; };
+		E72AE31F1D7234A50029239E /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72AE31C1D7234A50029239E /* FBSDKShareKit.framework */; };
+		E72AE3221D7239B10029239E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72AE3211D7239B10029239E /* Bolts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,11 @@
 		E72AE3081D722F880029239E /* FriptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E72AE30C1D722F880029239E /* FriptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriptUITests.swift; sourceTree = "<group>"; };
 		E72AE30E1D722F880029239E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E72AE31A1D7234A50029239E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../sdk/facebook/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		E72AE31B1D7234A50029239E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../sdk/facebook/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		E72AE31C1D7234A50029239E /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../sdk/facebook/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		E72AE3201D7237DE0029239E /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		E72AE3211D7239B10029239E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E72AE31E1D7234A50029239E /* FBSDKLoginKit.framework in Frameworks */,
+				E72AE31D1D7234A50029239E /* FBSDKCoreKit.framework in Frameworks */,
+				E72AE31F1D7234A50029239E /* FBSDKShareKit.framework in Frameworks */,
+				E72AE3221D7239B10029239E /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,10 @@
 		E72AE2E01D722F880029239E = {
 			isa = PBXGroup;
 			children = (
+				E72AE3211D7239B10029239E /* Bolts.framework */,
+				E72AE31A1D7234A50029239E /* FBSDKCoreKit.framework */,
+				E72AE31B1D7234A50029239E /* FBSDKLoginKit.framework */,
+				E72AE31C1D7234A50029239E /* FBSDKShareKit.framework */,
 				E72AE2EB1D722F880029239E /* Fript */,
 				E72AE3001D722F880029239E /* FriptTests */,
 				E72AE30B1D722F880029239E /* FriptUITests */,
@@ -103,6 +120,7 @@
 				E72AE2F31D722F880029239E /* Assets.xcassets */,
 				E72AE2F51D722F880029239E /* LaunchScreen.storyboard */,
 				E72AE2F81D722F880029239E /* Info.plist */,
+				E72AE3201D7237DE0029239E /* Bridging-Header.h */,
 			);
 			path = Fript;
 			sourceTree = "<group>";
@@ -401,10 +419,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/oyvodega/sdk/facebook,
+				);
 				INFOPLIST_FILE = Fript/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.fript.Fript;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./Fript/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -412,10 +436,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/oyvodega/sdk/facebook,
+				);
 				INFOPLIST_FILE = Fript/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.fript.Fript;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./Fript/Bridging-Header.h";
 			};
 			name = Release;
 		};
